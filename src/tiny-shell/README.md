@@ -47,6 +47,13 @@ src/
 
 ## Building and Running
 
+### Requirements
+
+- Linux
+- macOS
+- Windows with WSL (Ubuntu)
+- GCC
+
 Compile
 
 ```bash
@@ -64,6 +71,10 @@ Execute the demonstration script
 ```bash
 ./tsh < examples/sample_commands.sh
 ```
+
+> **Note**
+>
+> This project targets POSIX-compliant operating systems and requires a Unix-like environment (Linux, macOS, or WSL on Windows). Native Windows compilers such as MinGW are not supported because the implementation relies on POSIX system calls such as `fork()`, `exec()`, `wait()`, and `pipe()`.
 
 ---
 
