@@ -124,6 +124,7 @@ allocproc(void)
 found:
   p->pid = allocpid();
   p->state = USED;
+  p->traceMask = 0;
 
   // Allocate a trapframe page.
   if((p->trapframe = (struct trapframe *)kalloc()) == 0){
@@ -298,11 +299,11 @@ fork(void)
 
   // copy saved user registers.
   *(np->trapframe) = *(p->trapframe);
-
+  
   // Cause fork to return 0 in the child.
   np->trapframe->a0 = 0;
-
   
+  // Inherit system call tracing mask from parent.
   np->traceMask = p->traceMask;
 
   // increment reference counts on open file descriptors.
