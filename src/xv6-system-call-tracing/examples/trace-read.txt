@@ -1,0 +1,10 @@
+Sample xv6 trace output.
+
+Actual process identifiers (PIDs) and return values may differ between executions.
+
+$ trace 32 grep hello README
+3: syscall read -> 1023
+3: syscall read -> 966
+3: syscall read -> 70
+3: syscall read -> 0
+$

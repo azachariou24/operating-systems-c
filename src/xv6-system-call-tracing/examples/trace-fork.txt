@@ -1,0 +1,16 @@
+Sample xv6 trace output.
+
+Actual process identifiers (PIDs) and return values may differ between executions.
+
+$ trace 2 usertests forkforkfork
+usertests starting
+test forkforkfork:
+407: syscall fork -> 408
+408: syscall fork -> 409
+409: syscall fork -> 410
+410: syscall fork -> 411
+409: syscall fork -> 412
+410: syscall fork -> 413
+409: syscall fork -> 414
+411: syscall fork -> 415
+...
