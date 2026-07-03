@@ -1,0 +1,39 @@
+Sample Program Output
+=====================
+
+Waiter gives meat & veg
+Client2 has pies, starts eating
+Waiter gives veg & pies
+Client3 has meat, starts eating
+Waiter gives veg & pies
+Client3 has meat, starts eating
+Waiter gives pies & meat
+Client1 has veg, starts eating
+Waiter gives veg & pies
+Client3 has meat, starts eating
+Waiter gives veg & pies
+Client3 has meat, starts eating
+Waiter gives veg & pies
+Client3 has meat, starts eating
+Waiter gives pies & meat
+Client1 has veg, starts eating
+Waiter gives pies & meat
+Client1 has veg, starts eating
+Waiter gives veg & pies
+Client3 has meat, starts eating
+Waiter gives pies & meat
+Client1 has veg, starts eating
+Waiter gives pies & meat
+Client1 has veg, starts eating
+Waiter gives pies & meat
+Client1 has veg, starts eating
+Waiter gives veg & pies
+Client3 has meat, starts eating
+Waiter gives veg & pies
+Client3 has meat, starts eating
+Waiter gives pies & meat
+Client1 has veg, starts eating
+Waiter gives pies & meat
+Client1 has veg, starts eating
+Waiter gives meat & veg
+Client2 has pies, starts eating
