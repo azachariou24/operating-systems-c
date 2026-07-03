@@ -139,9 +139,10 @@ Additional example sessions are available in the `examples/` directory:
 
 The following diagram illustrates how the System Call Tracing extension integrates with the xv6 kernel. It shows the execution flow from the user-level `trace` utility to the kernel system call dispatcher and the generation of tracing output.
 
-<p <img src="../../images/xv6-system-call-tracing-architecture.png"
-     alt="xv6 System Call Tracing Architecture"
-     width="900">
+<p align="center">
+    <img src="../../images/system-call-tracing-architecture.png"
+         alt="xv6 System Call Tracing Architecture"
+         width="900">
 </p>
 
 ---
