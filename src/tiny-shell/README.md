@@ -39,7 +39,6 @@ src/
 └── tiny-shell/
     ├── tsh.c
     ├── README.md
-    ├── Makefile
     └── examples/
         └── sample_commands.sh
 ```
