@@ -1,0 +1,24 @@
+# Compiled files
+*.o
+*.out
+*.exe
+
+# Build directories
+build/
+bin/
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.gz
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
