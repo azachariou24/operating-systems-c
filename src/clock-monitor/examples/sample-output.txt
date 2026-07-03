@@ -1,0 +1,20 @@
+Sample execution output.
+
+The program runs continuously because it simulates an active clock monitor.
+Execution can be stopped manually using Ctrl+C.
+
+$ make run
+./clock-monitor
+Worker 0: needs to sleep 4 ticks
+Worker 1: needs to sleep 8 ticks
+Worker 2: needs to sleep 9 ticks
+Clock tick: 1
+Clock tick: 2
+Clock tick: 3
+Clock tick: 4
+Worker 0: woke up after 4 ticks
+Worker 0: doing some work before next sleep
+Clock tick: 5
+Clock tick: 6
+Worker 1: woke up after 8 ticks
+Worker 1: doing some work before next sleep
