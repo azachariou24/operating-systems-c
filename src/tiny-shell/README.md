@@ -50,7 +50,7 @@ src/
 Compile
 
 ```bash
-make
+gcc tsh.c -o tsh
 ```
 
 Run interactively
@@ -69,7 +69,7 @@ Execute the demonstration script
 
 ## Example
 
-Run the shell using the provided demonstration script:
+The following commands demonstrate the supported shell functionality:
 
 ```bash
 ./tsh < examples/sample_commands.sh
