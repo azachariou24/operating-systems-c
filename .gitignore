@@ -1,24 +1,36 @@
-# Compiled files
-*.o
+# Compiled executables
 *.out
 *.exe
 
+# Object files
+*.o
+*.obj
+
+# Static libraries
+*.a
+
+# Shared libraries
+*.so
+*.dll
+*.dylib
+
+# Debug symbols
+*.dSYM/
+
 # Build directories
 build/
-bin/
+dist/
 
-# Archives
-*.zip
-*.tar
-*.tar.gz
-*.gz
+# Temporary files
+*.tmp
+*.log
+
+# Editor files
+.vscode/
+.idea/
 
 # macOS
 .DS_Store
 
 # Windows
 Thumbs.db
-
-# IDE settings
-.vscode/
-.idea/
